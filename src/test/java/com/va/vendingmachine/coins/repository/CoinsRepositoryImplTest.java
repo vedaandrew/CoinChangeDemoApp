@@ -1,7 +1,6 @@
-package com.va.vendingmachine.coins.service;
+package com.va.vendingmachine.coins.repository;
 
 import com.va.vendingmachine.coins.pojo.Coin;
-import com.va.vendingmachine.coins.repository.CoinsRepositoryImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
 class CoinsRepositoryImplTest {
